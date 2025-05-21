@@ -8,7 +8,7 @@ jobs:
   lint-html:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
       - name: HTML Lint
         uses: Cyb3r-Jak3/html5validator-action@v7.2.0
 
