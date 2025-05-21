@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: HTML Lint
-        uses: Cyb3r-Jak3/html5validator-action@v0.4.0
+        uses: Cyb3r-Jak3/html5validator-action@v0.2.0
 
   build-docker:
     runs-on: ubuntu-latest
